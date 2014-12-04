@@ -17,11 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostaLibrary.ExtensionMethods", "src\CostaLibrary.ExtensionMethods\CostaLibrary.ExtensionMethods.csproj", "{B93FBF79-126E-4958-AACC-F43CAA4458BA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{08533A5A-79CB-4A6D-8051-A70513A6A555}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{135680A3-3262-4038-890D-190CBE822485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostaLibrary.ExtensionMethods.UnitTests", "CostaLibrary.ExtensionMethods.UnitTests\CostaLibrary.ExtensionMethods.UnitTests.csproj", "{A306E4B0-16D9-465A-B20F-4B2DC0DA3D5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostaLibrary.ExtensionMethods.UnitTests", "tests\CostaLibrary.ExtensionMethods.UnitTests\CostaLibrary.ExtensionMethods.UnitTests.csproj", "{A306E4B0-16D9-465A-B20F-4B2DC0DA3D5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EC89C446-0217-477A-8A1C-F5F285D997C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +43,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B93FBF79-126E-4958-AACC-F43CAA4458BA} = {135680A3-3262-4038-890D-190CBE822485}
-		{A306E4B0-16D9-465A-B20F-4B2DC0DA3D5F} = {08533A5A-79CB-4A6D-8051-A70513A6A555}
+		{A306E4B0-16D9-465A-B20F-4B2DC0DA3D5F} = {EC89C446-0217-477A-8A1C-F5F285D997C8}
 	EndGlobalSection
 EndGlobal
