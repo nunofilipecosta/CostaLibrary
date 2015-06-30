@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@section HeaderStyles
+{
+
+    <link href="~/Content/bootstrap-switch/bootstrap2/bootstrap-switch.min.css" rel="stylesheet" />
+}
+
+<section>
+    <input type="checkbox" id="myCheckbox" /> This is a checkbox
+
+    <div>
+        <button class="btn btn-primary">Info</button>
+    </div>
+
+</section>
+
+
+@section BottomScripts
+{
+
+    <script src="~/Scripts/bootstrap-switch.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            console.log("ready!");
+            $("myCheckbox").bootstrapSwitch();
+        });
+
+    </script>
+}
+
