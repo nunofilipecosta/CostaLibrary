@@ -39,9 +39,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Composition\Car.cs" />
+    <Compile Include="Composition\CarFactory.cs" />
+    <Compile Include="Composition\FrontSteering.cs" />
+    <Compile Include="Composition\IManufacturer.cs" />
+    <Compile Include="Composition\ICar.cs" />
+    <Compile Include="Composition\IWheel.cs" />
+    <Compile Include="Composition\Toyota.cs" />
+    <Compile Include="Composition\ToyotaCorolla.cs" />
+    <Compile Include="Composition\ToyotaCorollaSports.cs" />
+    <Compile Include="Composition\TwoWheelDrive.cs" />
+    <Compile Include="Composition\Wheel.cs" />
+    <Compile Include="Inheritance\AllWheelDriveCar.cs" />
+    <Compile Include="Inheritance\BaseCar.cs" />
+    <Compile Include="Inheritance\Car.cs" />
     <Compile Include="CropEstimate.cs" />
     <Compile Include="DatabaseContext.cs" />
+    <Compile Include="Inheritance\FrontWheelDriveCar.cs" />
+    <Compile Include="Composition\IDriving.cs" />
+    <Compile Include="Composition\ISteering.cs" />
+    <Compile Include="Inheritance\MitsubishiTitan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Inheritance\RearWheelDriveCar.cs" />
+    <Compile Include="Inheritance\ToyotaCorolla.cs" />
+    <Compile Include="Inheritance\ToyotaCorollaSports.cs" />
+    <Compile Include="Inheritance\Wheel.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CostaLibrary.Interfaces\CostaLibrary.Interfaces.csproj">
